@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>微商城后台－登录</title>
+    <link href="../css/login/login.css" type="text/css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../favicon.ico" />
+  </head>
+  <body>
+    <div class="login-view">
+      <div class="login-wrapper" ng-controller="loginCtrl">
+        <div class="login-box">
+          <div class="login-title">
+            <div class="company-name">
+              <img src="../imgs/logo.png" />
+              <span>微商城后台</span>
+            </div>
+            <div class="systme-name">
+              <span>管理员登录</span>
+            </div>
+          </div>
+          <div class="login-form">
+            <div class="form-group form-input">
+              <input
+                type="text"
+                class="normal-input"
+                id="user-name"
+                placeholder="用户名"
+              />
+              <div class="common-error-tips"><div></div></div>
+            </div>
+            <div class="form-group form-input">
+              <input
+                type="password"
+                class="normal-input"
+                id="user-pwd"
+                placeholder="密码"
+              />
+              <div class="common-error-tips"><div></div></div>
+            </div>
+            <div class="form-group form-btn">
+              <a id="login" class="normal-button">
+                <div class="button-rainbow">
+                  <svg
+                    viewBox="0 0 375 375"
+                  >
+                    <defs><path id="a" d="M0 0h375v375H0z"></path></defs>
+                    <g fill="none" fill-rule="evenodd">
+                      <mask id="b" fill="#fff">
+                        <use xlink:href="#a"></use>
+                      </mask>
+                      <path
+                        d="M375 750C167.893 750 0 582.107 0 375S167.893 0 375 0s375 167.893 375 375-167.893 375-375 375zm1.5-200c97.478 0 176.5-79.022 176.5-176.5S473.978 197 376.5 197 200 276.022 200 373.5 279.022 550 376.5 550z"
+                        fill="#F41B39"
+                        fill-rule="nonzero"
+                        mask="url(#b)"
+                      ></path>
+                      <path
+                        d="M375.5 710C190.208 710 40 559.792 40 374.5S190.208 39 375.5 39 711 189.208 711 374.5 560.792 710 375.5 710zm1-160c97.478 0 176.5-79.022 176.5-176.5S473.978 197 376.5 197 200 276.022 200 373.5 279.022 550 376.5 550z"
+                        fill="#F4601F"
+                        fill-rule="nonzero"
+                        mask="url(#b)"
+                      ></path>
+                      <path
+                        d="M375.5 670C212.3 670 80 537.7 80 374.5S212.3 79 375.5 79 671 211.3 671 374.5 538.7 670 375.5 670zm1-120c97.478 0 176.5-79.022 176.5-176.5S473.978 197 376.5 197 200 276.022 200 373.5 279.022 550 376.5 550z"
+                        fill="#F3F137"
+                        fill-rule="nonzero"
+                        mask="url(#b)"
+                      ></path>
+                      <path
+                        d="M376 630c-141.385 0-256-114.615-256-256s114.615-256 256-256 256 114.615 256 256-114.615 256-256 256zm.5-80c97.478 0 176.5-79.022 176.5-176.5S473.978 197 376.5 197 200 276.022 200 373.5 279.022 550 376.5 550z"
+                        fill="#29EE75"
+                        fill-rule="nonzero"
+                        mask="url(#b)"
+                      ></path>
+                      <path
+                        d="M376 590c-119.294 0-216-96.706-216-216s96.706-216 216-216 216 96.706 216 216-96.706 216-216 216zm.5-40c97.478 0 176.5-79.022 176.5-176.5S473.978 197 376.5 197 200 276.022 200 373.5 279.022 550 376.5 550z"
+                        fill="#2024EC"
+                        fill-rule="nonzero"
+                        mask="url(#b)"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <span class="button-text">登录</span>
+              </a>
+            </div>
+            <div class="form-group form-forget">
+              <label class="error-tips">登录失败</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../js/common.js" type="application/javascript"></script>
+  <script
+    src="../js/jquery-1.8.2.min.js"
+    type="application/javascript"
+  ></script>
+  <script src="../js/login.js" type="application/javascript"></script>
+</html>
